@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    align-content: center;
+    background-color: grey;
+}
+#div1{
+    display: flex; /* or display: block; */
+    flex-direction: column;
+    /* background-color: red; */
+}
+#div2{
+    /* display:flex; */
+    overflow-y: auto;
+    /* flex-direction: column; */
+    /* background-color: blue; */
+}
+div{
+    height: 50vh; /* 100vh means 100% of the viewport height and vw = viewport width.*/
+    width:50vw;
+    margin: 25px;
+    background-color: white;
+    border-radius: 10px;
+    padding:15px;
+}
+
+h3{
+    margin-left: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+#add_field_btn{
+    margin-top: 30px;
+    background-color: rgb(60, 60, 179);
+    color: white;
+}
+
+#self_destruct_button{
+    /* margin-left: auto; */
+    background-color: rgb(60, 60, 179);
+    color: white;
+}
