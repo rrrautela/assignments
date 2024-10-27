@@ -1,0 +1,84 @@
+body{
+    display:flex;
+    font-family: 'Patrick Hand', sans-serif;
+    background-color: gainsboro;
+}
+
+
+div{
+    width:25vw;
+    border-radius: 15px;
+    margin: 5px;
+}
+#div1{
+    background-color: #A3CEF1;
+}
+#div2{
+    background-color: #B5CDA3;
+}
+#div3{
+    background-color: #D1C4E9;
+}
+#div4{
+    background-color: #FAD4C0;
+}
+
+#upperLayerDiv{
+    position: absolute;
+    
+    height:250px;
+    width:500px;
+    background-color:  #F9EBAF ;
+    z-index: 1;
+
+    top:20%;
+    left:30%;
+    display: flex; 
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.subdiv{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    width: 23vw;
+    border: 1px solid black;
+    margin-bottom: 10px;;
+}
+
+.add_btn{
+    height: 2.5rem;
+    width: 18rem;
+    margin:5px;
+    border-radius: 5px;
+    background-color: #333333;
+    color:white;
+    font-size: large;
+    text-align: left;
+}
+
+input{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+h2{
+    margin-left: 5px;
+}
+
+h3{
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+h4{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: grey;
+}
